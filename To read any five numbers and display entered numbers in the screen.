@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int age[5];
+    printf("Enter any five numbers= ");
+    for (int i = 0; i<5; ++i){
+        scanf("%d", &age[i]);
+    }
+    for (int i = 0; i <5; ++i){
+        printf("%d\t", age[i]);
+    }
+
+    return 0;
+}
